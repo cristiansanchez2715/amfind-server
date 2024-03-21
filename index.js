@@ -169,7 +169,7 @@ const app = express();
 const port = process.env.PORT || 4000;
 const { PORT, DB_HOST, DB_USER, DB_PASSWORD, DB_NAME, DB_PORT } = require('./config.js');
 app.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', 'https://cristiansanchez2715.github.io');
+  res.header('Access-Control-Allow-Origin', 'https://cristiancamilomedinasanchez3.github.io');
   res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
   res.header('Access-Control-Allow-Headers', 'Content-Type');
   next();
@@ -179,7 +179,7 @@ app.use((req, res, next) => {
 // Configuración CORS
 const corsOptions = {
   // origin: 'https://diningexperiencesource.shop', // Reemplaza con la URL de tu aplicación frontend
-    origin: 'https://cristiansanchez2715.github.io',
+    origin: 'https://cristiancamilomedinasanchez3.github.io',
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true,
   optionsSuccessStatus: 204,
